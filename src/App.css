@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  background-color: #f6f6f6;
+}
+
+.App {
+  width: 1000px;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Home */
+.Home {
+  width: 80vh;
+  height: 100vh;
+}
+
+.Login {
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  width: 400px;
+  height: 250px;
+}
+.Login .input_ID {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.Login input {
+  border-radius: 5px;
+  height: 25px;
+  font-size: 20px;
+
+  padding: 10px;
+}
+
+.Login .input_PW {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input_PW button {
+  border-radius: 5px;
+  background-color: #ececec;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
